@@ -15,5 +15,4 @@ print("----------------------------")
 print("The odd numbers in the tuple are: ")
 for i in t1:
     if i%2!=0:
-        
-        print(i,end=" ")
+        print("the odd numbers in the tuple are: ",i)
