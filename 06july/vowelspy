@@ -1,0 +1,11 @@
+'''input a sentence and count no. of vowels pressent inn input'''
+#input a sentence from 
+sentence=input("Enter a sentence: ")
+vowels="aeiouAEIOU"
+#initialize a count variable as  0
+count=0
+#loop through each character in the sentence
+for x in sentence:
+    if x in vowels:
+        count+=1
+print("The number of vowels in the sentence is: ",count)
