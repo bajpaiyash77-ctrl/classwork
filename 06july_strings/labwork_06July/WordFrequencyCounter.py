@@ -1,6 +1,5 @@
 '''accept a sentence from user and stores the frequency of each word.'''
-'''Additionaly display the most frequently occuring word in the sentence.'''
-'''Display all words in alphabetical order '''
+
 
 #input a sentence from user
 sentence = input("Enter a sentence: ")

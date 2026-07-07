@@ -1,3 +1,10 @@
+''''Create a dictionary to store the marks of 5 students in dictionary. The key of the dictionary is the name of the student and the value is the marks of the student.'''
+'''display all students with marks'''
+'''add a new student and marks to the dictionary'''
+'''update the marks of a student in the dictionary'''
+'''delete a student from the dictionary'''
+'''display the student with highest marks'''
+
 #Creating a dictionary to store the marks of 5 students
 student_marks = {}
 
@@ -37,4 +44,3 @@ highest_marks = max(student_marks.values())
 for name, marks in student_marks.items():
     if marks == highest_marks:
         print("The student with highest marks is: ", name, "with marks: ", marks)
-    
