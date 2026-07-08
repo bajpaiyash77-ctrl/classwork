@@ -1,18 +1,3 @@
-'''You are required to create a Python module named twodfigures.py that contains functions to perform the following calculations for different two-dimensional shapes:
-
-Triangle
-Calculate Area
-Calculate Perimeter
-Circle
-Calculate Area
-Calculate Circumference (Perimeter)
-Square
-Calculate Area
-Calculate Perimeter
-Rectangle
-Calculate Area
-Calculate Perimeter'''
-
 # Function to calculate the area of a triangle
 def calculate_triangle_area(base, height):
     return 0.5 * base * height
