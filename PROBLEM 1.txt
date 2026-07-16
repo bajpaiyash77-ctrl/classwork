@@ -1,0 +1,32 @@
+PROBLEM 1 : ELECTRICITY BILL CALCULATOR
+
+MAIN PROGRAM 
+
+#TAKING INPUT 
+units = int(input("ENTER THE NO. OF UNITS CONSUMED BY USER"))
+
+
+#CONDITIONAL STATEMNTS
+if units <= 100:
+    bill = units * 5
+elif units <= 200:
+    bill = (100 * 5) + (units - 100) * 7
+else:
+    bill = (100 * 5) + (100 * 7) + (units - 200) * 10
+ 
+# If bill crosses ₹2000, add a 5% surcharge on top of it
+if bill > 2000:
+    final_amount = bill + (bill * 0.05)
+else:
+    final_amount = bill
+ 
+# minimum bill amount of ₹500
+if final_amount < 500:
+    final_amount = 500
+ 
+# Display results
+print("Total Units       : {units}")
+print("Bill Amount       : ₹{bill:}")
+print("Final Payable Amt : ₹{final_amount:}")
+ 
+ 
